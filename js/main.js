@@ -3,7 +3,7 @@ let ctx = canvas.getContext('2d');
 let brikHeight = 40;
 let margin = 10;
 let brickWidth = 440;
-let brikWidht = ((canvas.width / 5) -( margin / 6));
+let brikWidht = (brickWidth / 5) - margin;
 console.log(canvas.width);
 marginRight = -10;
 
